@@ -117,3 +117,5 @@ An example for lovelace
     type: 'custom:secondaryinfo-entity-row'
 ```
 next occur and the year will be displayed in secondaryinfo area of the card
+
+![What i look like](https://github.com/MYLE-01/ps-date-countdown/blob/master/screen.PNG)
