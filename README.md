@@ -107,3 +107,13 @@ automation:
         data:
           message: "John's birthday is only a week away!"
 ```
+## Showing it in lovelace
+An example for lovelace
+(at this point of time you have to the secondaryinfo-entity-row )
+
+```
+  - entity: sensor.anniversary_our_wedding
+    secondary_info: ' [[ {entity}.attributes.nextoccur ]]  ( [[ {entity}.attributes.years ]] Years )'
+    type: 'custom:secondaryinfo-entity-row'
+```
+next occur and the year will be displayed in secondaryinfo area of the card
